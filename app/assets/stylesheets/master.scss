@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
 
 .frosty h1 {
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: 200;
+  font-weight: 100;
   letter-spacing: 3px;
   text-shadow: rgba(175, 157, 177, 0.9) 1px 1px;
   color: white;
@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
 
 .frosty h2 {
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 200;
   letter-spacing: 2px;
   text-shadow: rgba(175, 157, 177, 0.9) 1px 1px;
   color: white;
@@ -60,11 +60,21 @@ h1, h2, h3, h4, h5, h6, .navbar {
 .btn {
   border-radius: 0;
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: 200;
+  font-weight: 100;
   letter-spacing: 3px;
 }
 
 .btn-success {
   background-color: #AF9DB1;
   border-color: #AF9DB1;
+}
+
+.feature {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+h3 {
+  font-weight: 100;
 }
