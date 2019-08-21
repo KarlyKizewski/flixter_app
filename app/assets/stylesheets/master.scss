@@ -1,23 +1,70 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700,900&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Cormorant+Infant:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,400i,700,700i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
 
 body {
-  font-family: 'Cormorant Infant', serif;
+  font-family: 'Raleway', sans-serif;
   background: image_url('linen.png');
 }
 
 .navbar {
-  font-family: 'Playfair Display SC', serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 100;
   box-shadow: 0px 1px 3px #CBC9C8;
   background: image_url('kuji.png');
+  letter-spacing: 3px;
 }
 
 .navbar-light a.navbar-brand {
   font-family: 'Cinzel Decorative', cursive;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 35px;
+  letter-spacing: 4px;
+}
+
+.hero {
+  background: image_url('hero.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 370px;
+  box-shadow: 0px 1px 3px #CBC9C8;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar {
+  margin: 0;
+}
+
+.frosty {
+  background: rgba(203, 200, 203, 0.5);
+}
+
+.frosty h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 200;
   letter-spacing: 3px;
+  text-shadow: rgba(175, 157, 177, 0.9) 1px 1px;
+  color: white;
+}
+
+.frosty h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-shadow: rgba(175, 157, 177, 0.9) 1px 1px;
+  color: white;
+}
+
+.btn {
+  border-radius: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 200;
+  letter-spacing: 3px;
+}
+
+.btn-success {
+  background-color: #AF9DB1;
+  border-color: #AF9DB1;
 }
