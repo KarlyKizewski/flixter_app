@@ -10,9 +10,12 @@ body {
 
 .navbar {
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: 600;
   box-shadow: 0px 1px 3px #CBC9C8;
   background: image_url('kuji.png');
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-weight: 600;
   letter-spacing: 5px;
 }
 
@@ -51,10 +54,14 @@ h1, h2, h3, h4, h5, h6, .navbar {
 
 .frosty h2 {
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: 2px;
   text-shadow: rgba(175, 157, 177, 0.9) 1px 1px;
   color: white;
+}
+
+h3 {
+  font-weight: 100;
 }
 
 .btn {
@@ -69,14 +76,15 @@ h1, h2, h3, h4, h5, h6, .navbar {
   border-color: #AF9DB1;
 }
 
+.btn-primary {
+  background-color: #AF9DB1;
+  border-color: #AF9DB1;
+}
+
 .feature {
   width: 100%;
   padding-left: 5%;
   padding-right: 5%;
-}
-
-h3 {
-  font-weight: 100;
 }
 
 p.alert-danger {
@@ -90,5 +98,37 @@ p.alert-info {
   border-color: #BEA0B7;
   color: white;
 }
+
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+}
+
+form, a {
+  color: black;
+  font-weight: 100;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+form, h2 {
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.form-check {
+  padding-left: 20px;
+}
+
+input.btn.btn-btn-primary {
+  border: solid;
+  border-width: 1px;
+  border-color: #BEA0B7;
+}
+
 
 
