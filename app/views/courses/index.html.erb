@@ -10,6 +10,9 @@
     <h2 class="text-center">
       <%= link_to course.title, course_path(course) %>
     </h2>
+    <% unless course.image.url.nil? %>
+    <%= image_tag course.image.url, class: 'img-fluid' %>
+    <% end %>
     <div class="col-sm-8 col-12">
       <%= course.descriptions %>
     </div>
