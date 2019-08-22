@@ -2,17 +2,18 @@
 
 <div class="booyah-box col-10 offset-1">
   <h1 class="text-center">Learn something today</h1>
-  <br />
   <hr />
-  <br />
-  <div class="row">
-  <% @courses.each do |course| %>
-    <h2 class="text-center">
+    <% @courses.each do |course| %>
+     <h2 class="text-center">
       <%= link_to course.title, course_path(course) %>
-    </h2>
+     </h2>
+     <br />
+    <div class="text-center">
     <% unless course.image.url.nil? %>
-    <%= image_tag course.image.url, class: 'img-fluid' %>
+      <%= image_tag course.image.url, class: 'img-fluid' %>
     <% end %>
+  </div>
+  <div class="row">
     <div class="col-sm-8 col-12">
       <%= course.descriptions %>
     </div>
@@ -20,6 +21,6 @@
       <%= link_to 'More Details...', course_path(course), class: 'btn btn-primary btn-large' %>
     </div>
   </div>
-  <br class="clr" />
+  <div class="clr" />
   <% end %>
 </div>
