@@ -68,8 +68,8 @@ gem 'simple_form'
 gem 'devise'
 gem 'figaro'
 gem 'carrierwave', '~> 2.0'
-gem 'fog-aws'
 gem 'mini_magick'
+gem 'fog-aws'
 
 
 source 'https://rails-assets.org' do 
