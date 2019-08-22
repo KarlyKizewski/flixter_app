@@ -1,10 +1,12 @@
+<br />
 <div class="booyah-box col-10 offset-1">
   <h1 class="text-center"><%= current_course.title %></h1>
+  <br />
   <%= link_to 'Preview as student...', course_path(current_course), class: 'btn btn-warning float-right' %>
   <br />
   <br class="clr" />
   <div class="text-center">
-    <%= link_to 'Add a new section...', new_instructor_course_section_path(current_course, class: 'btn btn-primary btn-large' %>
+    <%= link_to 'Add a new section...', new_instructor_course_section_path(current_course), class: 'btn btn-primary btn-large' %>
   </div>
   <ul>
     <% current_course.sections.each do |section| %>
@@ -18,10 +20,12 @@
               -
               <%= lesson.subtitle %>
             </li>
-            <% end %>
+          <% end %>
         </ul>
         <br class="clr" />
       </li>
     <% end %>
   </ul>
+
+
 </div>
