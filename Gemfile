@@ -70,6 +70,7 @@ gem 'figaro'
 gem 'carrierwave', '~> 2.0'
 gem 'mini_magick'
 gem 'fog-aws'
+gem 'stripe'
 
 
 source 'https://rails-assets.org' do 
