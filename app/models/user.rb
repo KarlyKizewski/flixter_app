@@ -11,5 +11,4 @@ class User < ApplicationRecord
     return enrolled_courses.include?(course)
   end
 
-
 end
