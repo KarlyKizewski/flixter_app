@@ -1,24 +1,3 @@
-# README
+Flixter - A Video Streaming Platform
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This project is a two-sided video streaming marketplace platform. It features the capability to perform credit card transactions. Flixter involves user role management as well as complex user interfaces and advanced database relationships. It combines HTML, CSS, RUBY, RAILS, ALGORITHMS, and JAVASCRIPT.
