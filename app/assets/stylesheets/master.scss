@@ -1,16 +1,15 @@
 @import "bootstrap";
 @import "font-awesome";
-@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700,900&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+1p:100,300,400,500,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap');
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Kosugi Maru', sans-serif;
   background: image_url('linen.png');
 }
 
 .navbar {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Kosugi Maru', sans-serif;
   box-shadow: 0px 1px 3px #CBC9C8;
   background: image_url('dark-grey-terrazzo.png');
 }
@@ -45,7 +44,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 .frosty h1 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'M PLUS 1p', sans-serif;
   font-weight: 100;
   letter-spacing: 3px;
   text-shadow: rgba(175, 157, 177, 0.9) 1px 1px;
@@ -53,7 +52,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 .frosty h2 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'M PLUS 1p', sans-serif;
   font-weight: 300;
   letter-spacing: 2px;
   text-shadow: rgba(175, 157, 177, 0.9) 1px 1px;
@@ -66,7 +65,7 @@ h3 {
 
 .btn {
   border-radius: 0;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Kosugi Maru', sans-serif;
   font-weight: 100;
   letter-spacing: 3px;
 }
