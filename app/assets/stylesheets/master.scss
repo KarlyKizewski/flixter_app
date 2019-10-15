@@ -1,32 +1,34 @@
 @import "bootstrap";
 @import "font-awesome";
-@import url('https://fonts.googleapis.com/css?family=M+PLUS+1p:100,300,400,500,700,800,900&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Kosugi+Maru&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+English:400,400i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon:400,400i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+English+SC&display=swap');
 
 body {
-  font-family: 'Kosugi Maru', sans-serif;
-  background: image_url('linen.png');
+  font-family: 'IM Fell French Canon', serif;
+  background: white;
 }
 
 .navbar {
-  font-family: 'Kosugi Maru', sans-serif;
+  font-family: 'Playfair Display', serif;
   box-shadow: 0px 1px 3px #CBC9C8;
-  background: image_url('dark-grey-terrazzo.png');
 }
 
-.navbar-inverse .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link {
   font-weight: 600;
   letter-spacing: 5px;
 }
 
-.navbar-inverse a.navbar-brand {
-  font-family: 'unibody_8black';
-  font-size: 20px;
+.navbar-light a.navbar-brand {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 30px;
   color: #3CB43A;
+  letter-spacing: 7px;
+  padding: 0;
 }
 
 .hero {
-  background: image_url('hero_yes.png') no-repeat center center fixed;
+  background: image_url('gene-devine-ahxNfsInPVM-unsplash.jpeg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -40,11 +42,11 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 .frosty {
-  background: rgba(107, 171, 187, 0.5);
+  background: rgba(115, 76, 36, 0.75);
 }
 
 .frosty h1 {
-  font-family: 'M PLUS 1p', sans-serif;
+  font-family: 'IM Fell English', serif;
   font-weight: 100;
   letter-spacing: 3px;
   text-shadow: rgba(175, 157, 177, 0.9) 1px 1px;
@@ -52,7 +54,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 .frosty h2 {
-  font-family: 'M PLUS 1p', sans-serif;
+  font-family: 'IM Fell English', serif;
   font-weight: 300;
   letter-spacing: 2px;
   text-shadow: rgba(175, 157, 177, 0.9) 1px 1px;
@@ -65,9 +67,12 @@ h3 {
 
 .btn {
   border-radius: 0;
-  font-family: 'Kosugi Maru', sans-serif;
+  font-family: 'IM Fell English', serif;
   font-weight: 100;
   letter-spacing: 3px;
+  background-color: #d4d179;
+  border-color: #d4d179;
+  color: black;
 }
 
 .feature {
