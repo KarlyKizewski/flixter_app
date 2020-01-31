@@ -30,7 +30,7 @@ This application was written using Sublime Text and deployed to Heroku.
 
 PostgreSQL - database <br />
 Rails v. 5.2 <br />
-HTML, CSS <br />
+JavaScript, HTML, CSS <br />
 
 ## Contributing
 
